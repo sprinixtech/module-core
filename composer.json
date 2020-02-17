@@ -1,0 +1,20 @@
+{
+  "name": "sprinix/module-core",
+  "description": "Sprinix Core module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Gulshan Maurya",
+      "email": "info@sprinix.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sprinix\\Core\\": ""
+    }
+  }
+}
