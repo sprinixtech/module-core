@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="sprinix" translate="label" sortOrder="150">
+        <tab id="sprinix" translate="label" sortOrder="150" class="sprinix-tab">
             <label>Sprinix</label>
         </tab>
     </system>

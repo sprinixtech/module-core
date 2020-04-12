@@ -1,0 +1,31 @@
+.config-nav-block {
+    &.sprinix-tab {
+        .admin__page-nav-title {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                background: url('../Sprinix_Core/images/sprinix_badge.png') no-repeat;
+                background-size: contain;
+                width: 19px;
+                height: 19px;
+            }
+
+            strong {
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+.admin__menu .item-sprinix-mainmenu.level-0 > a::before{
+    content: '';
+    display: block;
+    position: relative;
+    background: url('../Sprinix_Core/images/sprinix_badge.png') no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    top: 0.2rem;
+    left: 2.5rem;
+}

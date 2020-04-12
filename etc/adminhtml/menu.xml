@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sprinix_Core::sprinix_mainmenu" title="SPRINIX" module="Sprinix_Core" sortOrder="50" resource="Sprinix_Core::mainmenu"/>
+        <add id="Sprinix_Core::log" title="Log" module="Sprinix_Core" sortOrder="50" resource="Sprinix_Core::log" parent="Sprinix_Core::sprinix_mainmenu"/>
+    </menu>
+</config>
